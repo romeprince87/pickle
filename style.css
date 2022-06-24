@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#header{
+    background:#1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    line-height: 36px;
+    position: relative;
+
+}
+.logo{
+    font-size:40px;
+    color:white;
+    font-weight: 100;
+}
+nav ul a{
+    text-decoration:none;
+    color:white;
+    padding:8px 10px;
+    letter-spacing: 1xpx;
+    transition:all .5s ease;
+    border-radius: 30px;
+    
+}
+nav ul a:hover{
+    color:#1b1b1b;
+    background-color: white;
+
+    
+}
+nav ul a .active{
+    color:#1b1b1b;
+    background-color: white;
+    border-radius: 30px;
+    margin:20px 0px;
+    padding:2px;
+}
+ul li{
+    display:inline-block;
+    padding:10px;
+    font-size:20px;
+    
+}
+nav .menu-bar{
+    display: none;
+    color:white;
+    padding:0px 10px;
+}
+nav .menu-bar i{
+    cursor:pointer;
+}
+#click:checked ~ ul{
+    left:0;
+}
+#click{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:796px){
+    nav ul{
+        position:fixed;
+        top:36px;
+        left:-100%; 
+        background-color: #1b1b1b;
+        height:100vh;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        transition:all .3s ease;
+    }
+    nav ul li{
+        margin:70px o;
+    }
+    nav .menu-bar{
+        display: block;
+        color:white;
+        padding:0px 10px;
+    }
+    .logo{
+        font-size:25px;
+        color:white;
+        font-weight: 100;
+    }
+    
+}
+
+

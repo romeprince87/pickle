@@ -1,0 +1,157 @@
+html{
+    font-size: 100%;
+}
+h1{
+    position: absolute;
+    top:6.25rem;
+    left:12.5rem;
+    color:red;
+    /* text-shadow:0 0 30px; */
+}
+img{
+    position: absolute;
+    top:9.375rem;
+    left:11.875rem;
+    height:25rem;
+    width:25rem;
+    
+}
+#btn a{
+    border:none;
+    position: absolute;
+    bottom:-1.66666667rem;
+    left:31.25rem;
+    color:white;
+    background-color: #0a4abf;
+    width:10%;
+    padding:.5rem 1rem;
+    cursor:pointer;
+    text-decoration: none;
+}
+#price{
+    position: absolute;
+    bottom:-1.66666667rem;
+    left:12.5rem;
+    font-size: 1.5625rem;
+}
+#text{
+    position: absolute;
+    bottom:-4.375rem;
+    left:12.5rem;
+    font-size:1.25rem;
+}
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: left;
+}
+
+
+
+
+
+@media(max-width:796px){
+    html{
+        font-size:62.5%;
+    }
+    #btn a{
+        border:none;
+        position: absolute;
+        bottom:150px;
+        left:31.25rem;
+        color:white;
+        background-color: #0a4abf;
+        width:10%;
+        padding:.5rem 1rem;
+        cursor:pointer;
+        text-decoration: none;
+    }
+    #price{
+        position: absolute;
+        bottom:150px;
+        left:12.5rem;
+        font-size: 1.5625rem;
+    }
+    #text{
+        position: absolute;
+        bottom:100px;
+        left:12.5rem;
+        font-size:1.25rem;
+    }
+}
+
+@media(max-width:450px){
+    html{
+        font-size:55%;
+    }
+    img{
+        position: absolute;
+        top:9.375rem;
+        left:80px;
+        height:25rem;
+        width:25rem;
+        
+    }
+    #btn a{
+        border:none;
+        position: absolute;
+        bottom:180px;
+        left:250px;
+        color:white;
+        background-color: #0a4abf;
+        width:10%;
+        padding:.5rem 1rem;
+        cursor:pointer;
+        text-decoration: none;
+    }
+    #price{
+        position: absolute;
+        bottom: 180px;
+        left:90px;
+        font-size: 1.5625rem;
+    }
+    #text{
+        position: absolute;
+        bottom:150px;
+        left:90px;
+        font-size:1.25rem;
+    }
+}
+@media(max-width:320px){
+    html{
+        font-size:50%;
+    }
+    img{
+        position: absolute;
+        top:9.375rem;
+        left:60px;
+        height:25rem;
+        width:25rem;
+        
+    }
+    #btn a{
+        border:none;
+        position: absolute;
+        bottom: 250px;
+        left:200px;
+        color:white;
+        background-color: #0a4abf;
+        width:15%;
+        padding:.5rem 1rem;
+        cursor:pointer;
+        text-decoration: none;
+    }
+    #price{
+        position: absolute;
+        bottom: 230px;
+        left:60px;
+        font-size: 1.5625rem;
+    }
+    #text{
+        position: absolute;
+        bottom:200px;
+        left:60px;
+        font-size:1.25rem;
+    }
+}
+

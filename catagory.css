@@ -1,0 +1,45 @@
+.set{
+    display: flex;
+    
+    
+    
+
+}
+.pic{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+  margin-top: 10px;
+    
+    
+}
+.pic p1{
+    
+    height: 300px;
+    width: 300px;
+}
+.catagory-container{
+    position:relative ;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    width:15%;
+    height:512px;
+    align-items: center;
+    justify-content: space-around;
+}
+.catagory-container .item{
+    padding:20px;
+
+}
+.catagory-container .item a{
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+}
+.catagory-container .item a:hover{
+    color:cyan;
+}

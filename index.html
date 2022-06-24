@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slide.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   
+    
+</head>
+<body>
+    <nav id="header">
+        <div class="logo">Nanny pickles industry</div>
+        <input type="checkbox" id="click" >
+        <label for="click" class="menu-bar">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="catagory.html">Catagories</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </nav>
+    <div class="slide-container">
+        <div class="slide">
+            <img src="pickle.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="pickle1.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="pickle2.jpg" alt="">
+        </div>
+        <div class="slide">
+            <img src="pickle3.jpg" alt="">
+        </div>
+        <span class="arrow prev" onclick="controller(-1)">&#10094</span>
+        <span class="arrow next" onclick="controller(1)">&#10095</span>
+        
+    </div>
+
+    <script src="slide.js"></script>
+    <script src="hide.js"></script>
+    
+        
+ 
+
+    
+</body>
+</html>
